@@ -8,7 +8,7 @@
     "dev": "webpack --watch --mode development",
     "prod": "webpack --mode production",
     "start": "webpack-dev-server --open",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "author": "",
   "license": "ISC",
@@ -23,6 +23,8 @@
     "webpack-dev-server": "^3.2.1"
   },
   "dependencies": {
-    "gh-pages": "^2.0.1"
+    "d3": "^5.9.2",
+    "gh-pages": "^2.0.1",
+    "p5": "^0.7.3"
   }
 }
