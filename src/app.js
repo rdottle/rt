@@ -1,5 +1,11 @@
 import './style/app.css';
 import * as p5 from 'p5';
+
+import homeIcon from './images/favi.png';
+
+console.log(homeIcon);
+
+document.querySelector('#favi').href = homeIcon;
 // import * as d3 from 'd3';
 let NUMSINES = 50; // how many of these things can we do at once?
 let sines = new Array(NUMSINES); // an array to hold all the current angles
